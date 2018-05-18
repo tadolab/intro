@@ -12,7 +12,8 @@ Git（読み方はギット）は数あるVCSの一つで，現在では最も�
 
 [GitHub](https://github.com)（読み方はギットハブ）は，Gitを使って管理されたソフトウェアを公開するためのサービス．また，似たサービスに[GitLab](https://gitlab.com)がある．GitHubとGitLabは本質的には全く変わらないものだが，提供するサービス内容が若干異なる．ユーザ数が多いのはGitHub．どちらのアカウントも作っておけば問題ない．
 
-TODO: GitHubとGitLabのアカウント作成ページへのURL
+- [GitLabのアカウント登録](https://gitlab.com/users/sign_in#register-pane)
+- [GitHubのアカウント登録](https://github.com/join?source=header-home)
 
 田所研でのGitHubとGitLabの使い分け方は，公開して良いものはGitHub，非公開のほうが望ましいものはGitLabにアップロードする場合が多い．理由は，GitLabのほうが非公開に関する細かい設定が可能であるため．
 
@@ -20,6 +21,6 @@ TODO: GitHubとGitLabのアカウント作成ページへのURL
 
 GitHubやGitLabを使うには，まずGitが使えるようにならないといけない．Gitの勉強に良いウェブサイトのリンクを以下に載せる．
 
-- TODO: サルでも分かるgit
+- [サルでもわかるGit入門](https://backlog.com/ja/git-tutorial/)
 
 TODO: 他にあればのせる
