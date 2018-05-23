@@ -21,7 +21,7 @@ TODO: 写真
 
 ビーゴよりも大きい対向二輪型のロボット．
 
-TODO: 写真，スペック
+TODO: 写真，スペック
 
 ### コムス
 
@@ -40,7 +40,7 @@ TODO: リンク先を確認
   - `~/ros/workspaces/ROSディストロ名/ワークスペース名` に作るのがオススメ
 2. 作成したワークスペースに `cd` で入る
 3. `git clone https://github.com/tadolab/sh_spur_ros ./src/sh_spur_ros`
-  - `sh_spur_ros` はモータのドライバ
+  - `sh_spur_ros` はモータのドライバ
   - `git clone` はGitHubからダウンロードするためのコマンド
 4. 各ロボットに必要な他のパッケージをダウンロード
   - ビーゴの場合: [ここ](beego.md)のセットアップを参照
@@ -57,7 +57,7 @@ $ sudo apt-get install ros-kinetic-teleop-twist-joy
 $ roslaunch teleop_twist_joy ps3.launch
 ```
 
-`enable` ボタン（PS3だとスティック押し込みだが，ジョイパッドによる）を押しながらスティックを倒すことで速度指令が送られる．
+`enable` ボタン（PS3だとスティック押し込みだが，どのボタンかはジョイパッドによる）を押しながらスティックを倒すことで速度指令が送られる．
 
 設定ファイルは `/opt/ros/kinetic/share/teleop_twist_joy/config/ps3.config` にある．設定ファイルでは，以下の項目が変更できる:
 
